@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "cpx ./build/** ../priv/static --clean",
+    "postbuild": "cpx \"./build/**\" \"../priv/static\" --clean",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
