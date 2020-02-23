@@ -31,6 +31,7 @@
   },
   "proxy": "http://localhost:4000",
   "devDependencies": {
-    "cpx": "^1.5.0"
+    "cpx": "^1.5.0",
+    "mkdirp": "^1.0.3"
   }
 }
